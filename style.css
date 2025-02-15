@@ -113,3 +113,31 @@ ul li a {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
+
+/* Experience section */
+.experience {
+    margin-top: 10rem;
+    height: 90vh;
+    margin-left: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience-img {
+    background-image: url(images/barber3.avif);
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+    margin-left: 50px;
+}
+
+.grey-heading {
+    color: grey;
+    font-family: var(--main-font);
+}
+
+.btn-container {
+    margin-top: 30px;
+}
