@@ -326,4 +326,21 @@ ul li a {
         padding: 5px 10px;
         font-size: 10px;
     }
+
+    .sm-container {
+        flex-direction: column;
+    }
+
+    .list-items {
+        margin: 5px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__card-title {
+        margin-top: 10px;
+    }
 }
