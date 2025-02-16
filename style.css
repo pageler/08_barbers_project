@@ -87,6 +87,11 @@ ul li a {
     top: 8rem;
 }
 
+.header__btn-container {
+    margin-top: 20px;
+    margin-right: 4rem;
+}
+
 .main-btn {
     display: inline-block;
     padding: 10px 20px;
@@ -136,6 +141,7 @@ ul li a {
 .grey-heading {
     color: grey;
     font-family: var(--main-font);
+    margin-top: 3rem;
 }
 
 .btn-container {
@@ -182,6 +188,7 @@ ul li a {
 }
 
 .hero-img-container {
+    margin-top: 5rem;
     background-image: url(images/barber4.avif);
     background-position: top;
     background-size: cover;
@@ -196,14 +203,15 @@ ul li a {
 /* Services */
 .services {
     margin-top: 10rem;
+    margin-bottom: 10rem;
 }
 
 .services__grey-heading {
-    margin-left: 5rem;
+    margin-left: 11rem;
 }
 
 .services-heading {
-    margin-left: 5rem;
+    margin-left: 11rem;
     margin-bottom: 20px;
 }
 
@@ -285,4 +293,37 @@ ul li a {
 
 .credit-span {
     margin-bottom: 1rem;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+    .header--content {
+        align-items: center;
+        text-align: center;
+        width: 70%;
+    }
+
+    .header__img-container {
+        display: none;
+    }
+
+    .experience {
+        height: 100vh;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .btn-container {
+        margin-top: 30px;
+        margin-bottom: 3.5rem;
+    }
+
+    .follow {
+        display: none;
+    }
+
+    .main-btn {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
 }
