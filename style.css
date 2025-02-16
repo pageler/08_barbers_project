@@ -164,3 +164,31 @@ ul li a {
     margin-right: 3rem;
     text-align: center;
 }
+
+/* Hero section */
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img-container {
+    background-image: url(images/barber4.avif);
+    background-position: top;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+}
+
+.hero__content {
+    margin-left: 6rem;
+}
