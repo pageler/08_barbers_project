@@ -263,3 +263,26 @@ ul li a {
     color: rgb(109, 109, 109);
     margin: 30px 40px;
 }
+
+/*Footer */
+.footer {
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color:#fff;
+}
+
+.footer__card-title {
+    font-family: var(--main-font);
+}
+
+.footer__card-info {
+    font-family: var(--secondary-font);
+    line-height: 2rem;
+}
+
+.credit-span {
+    margin-bottom: 1rem;
+}
